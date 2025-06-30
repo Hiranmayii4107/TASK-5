@@ -1,0 +1,25 @@
+TASK 5
+
+Objectives: : Capture live network packets and identify basic protocols and traffic types
+Key concepts: Packet capture, protocol analysis, TCP/IP, network troubleshooting, filtering.
+Outcomes: Hands-on packet analysis skills and protocol awareness.
+
+
+I firstly installed wireshark from the web. Entered the filter "WIFI" and started capturing packets. 
+Stopped the capture about 60 seconds after start of capture.
+Enter specific filters and took screenshots
+First 'http' for HTTP traffic.
+There was no readings for https.
+
+ 
+Next typed, 'dns' — for DNS queries
+Found a few readings (7 to be precise)
+
+
+Next, 'tcp' — for TCP packets.
+Found a 27 readings for TCP packets.
+
+Capture summary
+
+Total packets: 130
+Packets present: ARP, MDNS, TCP, DNS, ICP.
